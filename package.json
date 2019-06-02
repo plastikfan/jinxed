@@ -17,10 +17,13 @@
     "helpers",
     "gotcha"
   ],
-  "author": "",
+  "author": "Plastikfan",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/plastikfan/jinxed/issues"
   },
-  "homepage": "https://github.com/plastikfan/jinxed#readme"
+  "homepage": "https://github.com/plastikfan/jinxed#readme",
+  "dependencies": {
+    "semistandard": "^13.0.1"
+  }
 }

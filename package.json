@@ -1,0 +1,26 @@
+{
+  "name": "jinxed",
+  "version": "0.0.1",
+  "description": "Collection of utility functions to help avoid being jinxed by javascript gotchas",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/plastikfan/jinxed.git"
+  },
+  "keywords": [
+    "javascript",
+    "dev",
+    "test",
+    "helpers",
+    "gotcha"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/plastikfan/jinxed/issues"
+  },
+  "homepage": "https://github.com/plastikfan/jinxed#readme"
+}

@@ -1,5 +1,7 @@
 'use strict';
 
+const FunctionToken = '_function_';
+
 /**
  * @function functify
  * @description: Use ths function instead of JSON.stringify on an object which may have functions
@@ -8,14 +10,15 @@
  *    But it will not evaluate the true value of the function property, rather, it will just include
  *    a place-holder string: '_function_'.
  *
- * @param {Object} obj: The object the stringify
+ * @param {Object} obj: The object to stringify
  */
 function functify (obj) {
   return JSON.stringify(obj, (key, val) => {
-    return (typeof val === 'function') ? '_function_' : val;
+    return (typeof val === 'function') ? FunctionToken : val;
   });
 }
 
 module.exports = {
-  functify: functify
-}
+  functify: functify,
+  FUNCTION_TOKEN: FunctionToken
+};

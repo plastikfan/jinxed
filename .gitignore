@@ -60,5 +60,8 @@ typings/
 # next.js build output
 .next
 
+# macos system files
+.DS_Store
+
 # webpack output folder
 dist/

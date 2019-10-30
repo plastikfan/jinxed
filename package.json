@@ -1,10 +1,11 @@
 {
   "name": "jinxed",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Collection of utility functions to help avoid being jinxed by javascript gotchas",
   "main": "index.js",
+  "types": "index.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha tests/*.spec.js"
   },
   "repository": {
     "type": "git",
@@ -25,5 +26,15 @@
   "homepage": "https://github.com/plastikfan/jinxed#readme",
   "dependencies": {
     "semistandard": "^13.0.1"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "dirty-chai": "^2.0.1",
+    "mocha": "^6.2.2"
+  },
+  "semistandard": {
+    "env": [
+      "mocha"
+    ]
   }
 }

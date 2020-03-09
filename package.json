@@ -1,6 +1,6 @@
 {
   "name": "jinxed",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Collection of utility functions to help avoid being jinxed by javascript gotchas",
   "main": "index.js",
   "types": "index.d.ts",
